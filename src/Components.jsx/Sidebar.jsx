@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../image.png';
-import { FaAngleDown } from "react-icons/fa";
+import { DownOutlined } from '@ant-design/icons';
 import { FaBriefcase, FaUsers, FaComments, FaPencilRuler } from 'react-icons/fa';
 
 function Sidebar() {
@@ -11,9 +11,8 @@ function Sidebar() {
         <div className="flex items-center mb-6">
           <img className="w-10 h-10 rounded-full" src={logo} alt="Logo" />
           <div className="ml-4">
-         
-            <div className="text-sm font-semibold">Designer  <FaAngleDown className="ml-2" /></div>
-            <div className="text-xs text-gray-500">Administrator</div>
+          <div className="text-sm font-semibold">Designer <DownOutlined className='ml-1'/></div>
+            <div className="text-xs text-gray-500">Admin@review</div>
             
           </div>
         </div>
